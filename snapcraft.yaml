@@ -12,10 +12,7 @@ confinement: devmode
 apps:
     stepp:
      command:stepp
-    plugs:
-      - home
-      - network
-      - network-bind
+   
 parts:
   stepp:
     plugin: go
