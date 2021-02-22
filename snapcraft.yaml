@@ -6,8 +6,8 @@ description:
        you can think of alias for ssh connections with encryption
   
 
-grade: devel  #stable
-confinement: devmode  #strict
+grade: stable
+confinement: strict
 
 apps:
     stepp:
