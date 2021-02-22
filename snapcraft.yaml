@@ -1,17 +1,17 @@
 name: stepp 
 base: core18 
-version: 0.1 
+version: ‘0.1’
 summary: Easy SSH management tool with encryption # 79 char long summary
 description: 
        you can think of alias for ssh connections with encryption
   
 
-grade: stable
-confinement: strict 
+grade: devel  #stable
+confinement: devmode  #strict
 
 apps:
     stepp:
-     command:run
+     command:executable/main.go
     plugs:
       - home
       - network
