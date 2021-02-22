@@ -33,5 +33,15 @@ step customer_1 "cd /path/to/file/ ; bash update.sh"
     step -h
 ````
 
+
+
+<a href="https://snapcraft.io/stepp">
+  <img alt="Get it from the Snap Store" src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" />
+</a>
+
+
+
+
+
 **Todo**
 * Use Tab key to search alias names
